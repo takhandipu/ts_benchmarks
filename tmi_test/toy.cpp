@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
   for(i=0;i<RWTHREADS;i++)
   {
     readIndices[i]=i;
-    writeIndices[i]=i;
+    writeIndices[i]=i+1;
   }
   for(i=0;i<RWTHREADS;i++)
   {
